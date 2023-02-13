@@ -13,7 +13,7 @@ public class Main {
 
         if (tutar>=1000)
         {
-            kdvOrani = 0.8;
+            kdvOrani = 0.08;
             System.out.println("KDV Oranı = " + kdvOrani);
             System.out.println("KDVsiz tutar = " + tutar);
             System.out.println("KDV tutarı = " + kdv);
