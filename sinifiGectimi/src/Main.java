@@ -37,7 +37,7 @@ public class Main {
             ders++;
         }
         avarage = total / ders;
-        if (avarage <= 55) {
+        if (avarage >= 55) {
             System.out.println("Ortalaman = " + avarage + "\nSınıfta kaldın");
         } else {
             System.out.println("Ortalaman = " + avarage + "\nTebrikler! Sınıfı geçtin.");
