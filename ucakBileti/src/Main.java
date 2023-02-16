@@ -38,19 +38,19 @@ public class Main {
                             }
                             break;
                         case 2:
-                            if (yas <= 11 && tip == 2) {
+                            if (yas <= 11) {
                                 normalT = mesafe * 0.10;
                                 yasIndirim = normalT - (normalT * 0.50);
                                 gidisDonus = yasIndirim - (yasIndirim * 0.20);
                                 indirimliT = gidisDonus * 2;
                                 System.out.println("Toplam tutar = " + indirimliT);
-                            } else if (yas >= 12 && yas <= 24 && tip == 2) {
+                            } else if (yas >= 12 && yas <= 24) {
                                 normalT = mesafe * 0.10;
                                 yasIndirim = normalT - (normalT * 0.10);
                                 gidisDonus = yasIndirim - (yasIndirim * 0.20);
                                 indirimliT = gidisDonus * 2;
                                 System.out.println("Toplam tutar = " + indirimliT);
-                            } else if (yas > 65 && tip == 2) {
+                            } else if (yas > 65) {
                                 normalT = mesafe * 0.10;
                                 yasIndirim = normalT - (normalT * 0.30);
                                 gidisDonus = yasIndirim - (yasIndirim * 0.20);
